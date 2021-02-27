@@ -1,0 +1,10 @@
+@import 'mixin';
+
+.fylo_header--container {
+    // @include flex-display;
+}
+
+.fylo_header--list {
+    display: flex;
+    gap: 5%;
+}

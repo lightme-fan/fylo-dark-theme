@@ -1,0 +1,26 @@
+@import 'mixin';
+
+.fylo_secure-location--container {
+    padding-top: 410px;
+    background-image: url('../images/illustration-intro.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 16%;
+
+    @include flex-display;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.fylo_works--nav {
+    text-align: center;
+    margin: 5rem 0;
+
+    .fylo_works {
+        @include flex-display;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}

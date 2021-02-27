@@ -1,0 +1,14 @@
+.fylo_get-started--button {
+    color: #fff;
+    background-color: hsl(198, 60%, 50%);
+    width: 254px;
+    height: 56px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: hsl(176, 68%, 64%);
+    }
+}

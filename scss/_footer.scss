@@ -1,0 +1,59 @@
+@import 'mixin';
+
+.fylo_footer-container {
+    margin: 4rem 0;
+}
+
+.fylo_footer_lorem {
+    padding-left: 2rem;
+
+    background-image: url('../images/icon-location.svg');
+    background-repeat: no-repeat;
+    background-position: 2px 10px;
+}
+
+.fylo_list--contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 3rem 0;
+
+    .fylo_contact { 
+        span {
+            padding-left: 2rem;
+        }
+    }
+}
+
+.fylo_menu--1,
+.fylo_menu--2 {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.fylo_social-media {
+    @include flex-display;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .facebook {
+        background-image: url('../images/facebook-icon.svg');
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+
+    .twitter {
+        background-image: url('../images/twitter-icon.svg');
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+
+    .instagram {
+        background-image: url('../images/instagram.svg');
+        background-repeat: no-repeat;
+        color: transparent;
+    }
+}

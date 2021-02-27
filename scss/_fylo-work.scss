@@ -1,0 +1,40 @@
+@import 'mixin';
+
+.fylo_main-work{
+    margin: 5rem 0;
+}
+
+.fylo_mission--list {
+    @include flex-display;
+    flex-direction: column;
+    gap: 4rem;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.fylo_work--list-item {
+    padding: 2rem;
+    background-color: hsl(219, 30%, 18%);
+
+    .fylo_profile {
+        display: flex;
+        gap: 5%;
+        align-items: center;
+
+        img {
+            width: 54px;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+
+        .fylo_profile--name {
+            font-weight: 700;
+        }
+    }
+}

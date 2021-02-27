@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
     <title>Fylo dark theme</title>
   </head>
   <body class="fylo">
     <header class="fylo_header">
-      <div class="fylo_container">
-        <h1 class="fylo_logo"><a class="fylo_logo--link fylo_link" href="/fylo"><img class="fylo_logo--image" src="../images/logo.svg" alt="Fylo Logo"></a></h1>
+      <div class="fylo_container fylo_header--container">
+        <h1 class="fylo_logo"><a class="fylo_logo--link fylo_link" href="/fylo"><img class="fylo_logo--image" src="./images/logo.svg" alt="Fylo Logo"></a></h1>
         <ul class="fylo_list fylo_header--list">
           <li class="fylo_header--list-item"><a class="fylo_link" href="/features">Features</a></li>
           <li class="fylo_header--list-item"><a class="fylo_link" href="/team">Team</a></li>
@@ -21,7 +22,7 @@
     <main class="fylo_main">
       <div class="fylo_container">
         <section class="fylo_section">
-          <div class="fylo_section--container">
+          <div class="fylo_section--container fylo_secure-location--container">
             <h2 class="fylo_title">
               All your files in one secure location, accessible anywhere.
             </h2>
@@ -31,10 +32,10 @@
             </p>
             <button class="fylo_get-started--button">Get started</button>
           </div>
-          <nav>
+          <nav class="fylo_works--nav">
             <ul class="fylo_list fylo_works">
               <li class="fylo_work--list">
-                <img class="fylo_work--list-image" src="../images/icon-access-anywhere.svg" alt="Access anywhere">
+                <img class="fylo_work--list-image" src="./images/icon-access-anywhere.svg" alt="Access anywhere">
                 <h3 class="fylo_work--list-title">Access your files, anywhere</h3>
                 <p class="fylo_paragraph fylo_work--list-desc">
                   The ability to use a smartphone, tablet, or computer to access your account means your 
@@ -42,7 +43,7 @@
                 </p>
               </li>
               <li class="fylo_work--list">
-                <img class="fylo_work--list-image" src="../images/icon-security.svg" alt="Security trust">
+                <img class="fylo_work--list-image" src="./images/icon-security.svg" alt="Security trust">
                 <h3 class="fylo_work--list-title">Security you can trust</h3>
                 <p class="fylo_paragraph fylo_work--list-desc">
                   2-factor authentication and user-controlled encryption are just a couple of the security 
@@ -50,7 +51,7 @@
                 </p>
               </li>
               <li class="fylo_work--list">
-                <img class="fylo_work--list-image" src="../images/icon-collaboration.svg" alt="Collaboration">
+                <img class="fylo_work--list-image" src="./images/icon-collaboration.svg" alt="Collaboration">
                 <h3 class="fylo_work--list-title">Real-time collaboration</h3>
                 <p class="fylo_paragraph fylo_work--list-desc">
                   Securely share files and folders with friends, family and colleagues for live collaboration. 
@@ -58,7 +59,7 @@
                 </p>
               </li>
               <li class="fylo_work--list">
-                <img class="fylo_work--list-image" src="../images/icon-any-file.svg" alt="">
+                <img class="fylo_work--list-image" src="./images/icon-any-file.svg" alt="">
                 <h3 class="fylo_work--list-title">Store any type of file</h3>
                 <p class="fylo_paragraph fylo_work--list-desc">
                   Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
@@ -70,7 +71,7 @@
         </section>
 
         <section class="fylo_section">
-          <div class="fylo_section--container">
+          <div class="fylo_section--container fylo_accessing_location">
             <h2 class="fylo_title">Stay productive, wherever you are</h2>
             <p class="fylo_paragraph">
               Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
@@ -80,48 +81,52 @@
               Securely share files and folders with friends, family and colleagues for live collaboration. No email 
               attachments required.
             </p>
+
+            <div class="fylo_following-up">
+              <a href="/following-up">See the following up <span class="fylo_following-up--arrow">→</span></a>
+            </div>
           </div>
         </section>
 
-        <section class="fylo_section">
+        <section class="fylo_section fylo_main-work">
           <div class="fylo_section--container">
             <h3>See how fylo works</h3>
-            <ul class="fylo_list">
-              <li>
+            <ul class="fylo_list fylo_mission--list">
+              <li class="fylo_work--list-item">
                 <p class="fylo_paragraph">
                   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
                   become a well-oiled collaboration machine.
                 </p>
                 <div class="fylo_profile">
-                  <img class="fylo_profile--image" src="../images/profile-1.jpg" alt="Person 1">
+                  <img class="fylo_profile--image" src="./images/profile-1.jpg" alt="Person 1">
                   <div class="fylo_profile--view">
-                    <span>Satish Patel</span>
+                    <span  >Satish Patel</span>
                     <span> Founder & CEO, Huddle</span>
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="fylo_work--list-item">
                 <p class="fylo_paragraph">
                   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
                   become a well-oiled collaboration machine.
                 </p>
                 <div class="fylo_profile">
-                  <img class="fylo_profile--image" src="../images/profile-2.jpg" alt="Person 2">
+                  <img class="fylo_profile--image" src="./images/profile-2.jpg" alt="Person 2">
                   <div class="fylo_profile--view">
-                    <span>Bruce McKenzie</span>
+                    <span class="fylo_profile--name">Bruce McKenzie</span>
                     <span>Founder & CEO, Huddle</span>
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="fylo_work--list-item">
                 <p class="fylo_paragraph">
                   Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
                   become a well-oiled collaboration machine.
                 </p>
                 <div class="fylo_profile">
-                  <img class="fylo_profile--image" src="../images/profile-3.jpg" alt="Person 3">
+                  <img class="fylo_profile--image" src="./images/profile-3.jpg" alt="Person 3">
                   <div class="fylo_profile--view">
-                    <span>Iva Boyd</span>
+                    <span class="fylo_profile--name">Iva Boyd</span>
                     <span>Founder & CEO, Huddle</span>
                   </div>
                 </div>
@@ -130,16 +135,16 @@
           </div>
         </section>
 
-        <section class="fylo_section">
+        <section class="fylo_section fylo_get-started">
           <div class="fylo_section--container">
-            <h3>Get early access today</h3>
+            <h2>Get early access today</h2>
             <p class="fylo_paragraph">
               It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
               questions, our support team would be happy to help you.
             </p>
-            <form>
+            <form class="fylo_form">
               <input class="fylo_input--email" type="email" placeholder="mail@example.com">
-              <button class="fylo_get-started--button">Get started for free</button>
+              <button class="fylo_get-started--button fylo_start--btn">Get started for free</button>
             </form>
           </div>
         </section>
@@ -147,34 +152,34 @@
     </main>
 
     <footer class="fylo_footer">
-      <div class="fylo_container">
-        <h1 class="fylo_logo"><a class="fylo_logo--link fylo_link" href="/fylo"><img class="fylo_logo--image" src="../images/logo.svg" alt="Fylo Logo"></a></h1>
+      <div class="fylo_container fylo_footer-container">
+        <h1 class="fylo_logo"><a class="fylo_logo--link fylo_link" href="/fylo"><img class="fylo_logo--image" src="./images/logo.svg" alt="Fylo Logo"></a></h1>
 
         <div class="fylo_footer--sub-container">
-          <div class="fylo_footer_lorem">
+          <p class="fylo_footer_lorem">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
             dolore magna aliqua
-          </div>
+          </p>
 
           <ul class="fylo_list fylo_list--contact">
             <li class="fylo_contact">
-              <img class="fylo_icon--contact" src="../images/icon-phone.svg" alt="Phone">
+              <img class="fylo_icon--contact" src="./images/icon-phone.svg" alt="Phone">
               <span>+1-543-123-4567</span>
             </li>
             <li class="fylo_contact">
-              <img class="fylo_icon--contact" src="../images/icon-email.svg" alt="Email">
+              <img class="fylo_icon--contact" src="./images/icon-email.svg" alt="Email">
               <span>example@fylo.com</span>
             </li>
           </ul>
           
           <nav class="fylo_footer_nav">
-            <ul class="fylo_list fylo_menu">
+            <ul class="fylo_list fylo_menu--1">
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/about">About Us</a></li>
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/jobs">Jobs</a></li>
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/press">Press</a></li>
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/blog">Blog</a></li>
             </ul>
-            <ul class="fylo_list">
+            <ul class="fylo_list fylo_menu--2">
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/contact-us">Contact Us</a></li>
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/terms">Terms</a></li>
               <li class="fylo_footer--menu"><a class="fylo_link fylo_footer--menu-link" href="/privacy">Privacy</a></li>

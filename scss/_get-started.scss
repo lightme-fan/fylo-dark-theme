@@ -1,0 +1,25 @@
+@import 'mixin';
+
+.fylo_get-started {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.fylo_form {
+    @include flex-display;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.fylo_start--btn,
+.fylo_input--email {
+    width: 100%;
+}
+
+.fylo_input--email {
+    height: 56px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}

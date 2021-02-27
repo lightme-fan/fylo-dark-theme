@@ -1,0 +1,28 @@
+@import 'mixin';
+
+.fylo {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    line-height: 32px;
+
+    .fylo_container {
+        max-width: 1130px;
+        margin: auto;
+        padding: 1rem;
+    }
+}
+
+.fylo_list {
+    @include reset-list;
+}
+
+.fylo_link {
+    @include reset-anchor;
+    color: #fff;
+}
+
+.fylo_title {
+    font-size: 36px;
+}

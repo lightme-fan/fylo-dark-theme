@@ -1,0 +1,28 @@
+@import 'mixin';
+
+.fylo_accessing_location {
+    margin: 4rem 0;
+    padding-top: 410px;
+    background-image: url('../images/illustration-stay-productive.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 16%;
+}
+
+.fylo_following-up {
+    a {        
+        color: hsl(176, 68%, 64%);
+    
+        .fylo_following-up--arrow {
+            width: 60px;
+            height: 60px;
+            background-color: hsl(176, 68%, 64%);
+            color: #000;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+    }
+}
