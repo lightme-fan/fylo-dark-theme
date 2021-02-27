@@ -1,0 +1,24 @@
+{
+  "name": "fylo-dark-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass scss -o css",
+    "scss:watch": "npm run scss && node-sass scss -w -o css",
+    "start": "npm run scss:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lightme-fan/fylo-dark-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightme-fan/fylo-dark-theme/issues"
+  },
+  "homepage": "https://github.com/lightme-fan/fylo-dark-theme#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
