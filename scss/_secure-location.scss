@@ -1,12 +1,6 @@
 @import 'mixin';
 
 .fylo_secure-location--container {
-    padding-top: 410px;
-    background-image: url('../images/illustration-intro.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 16%;
-
     @include flex-display;
     flex-direction: column;
     gap: 1.5rem;
@@ -22,5 +16,33 @@
         @include flex-display;
         flex-direction: column;
         gap: 5rem;
+    }
+}
+
+@media (min-width: 375px) {
+    .fylo_secure-location--container {
+        padding-left: 25%;
+    }
+
+    .fylo_works--nav {
+        .fylo_works {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media (min-width: 600px) {
+    .fylo_secure-location--container {
+        padding-left: 30%;
+        padding-right: 15%;
+    }
+    
+    .fylo_works--nav {
+        padding-left: 10%;
+        .fylo_works {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }

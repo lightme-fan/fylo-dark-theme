@@ -2,11 +2,6 @@
 
 .fylo_accessing_location {
     margin: 4rem 0;
-    padding-top: 410px;
-    background-image: url('../images/illustration-stay-productive.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0 16%;
 }
 
 .fylo_following-up {
@@ -24,5 +19,21 @@
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
         }
+    }
+}
+
+.see_work {
+    display: none;
+}
+
+@media (min-width: 600px) {
+    .fylo_accessing_location {
+        margin: 7rem 0;
+    }
+
+    .fylo_accessing_location {
+        display: grid;
+        grid-template-columns: 1fr 40%;
+        gap: 5%;
     }
 }

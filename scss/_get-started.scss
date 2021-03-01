@@ -23,3 +23,20 @@
     border: none;
     border-radius: 50px;
 }
+
+@media (min-width: 375px) {
+    .fylo_get-started {
+        margin: 6rem 0;
+    }
+
+    .fylo_main--content {
+        background-color: hsl(219, 30%, 18%);
+        padding: 2rem 4rem;
+        margin-left: 15%;
+    }
+
+    .fylo_form {
+        display: grid;
+        grid-template-columns: 1fr 35%;
+    }
+}

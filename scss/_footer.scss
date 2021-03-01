@@ -57,3 +57,25 @@
         color: transparent;
     }
 }
+
+@media (min-width: 375px) {
+    .fylo_footer--sub-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        // align-items: center;
+        gap: 5%;
+    }
+
+    .fylo_footer_lorem {
+        margin-top: 3rem;
+    }
+
+    .fylo_footer_nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fylo_social-media {
+        display: none;
+    }
+}

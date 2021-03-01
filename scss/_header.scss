@@ -8,3 +8,14 @@
     display: flex;
     gap: 5%;
 }
+
+@media (min-width: 375px) {
+    .fylo_header--container {
+        @include flex-display;
+    }
+
+    .fylo_header--list-item:nth-of-type(2),
+    .fylo_header--list-item:nth-of-type(3) {
+        display: none;
+    }
+}

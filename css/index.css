@@ -22,6 +22,9 @@
 .fylo_title {
   font-size: 36px; }
 
+.fylo_illutration-image {
+  width: 100%; }
+
 .fylo_get-started--button {
   color: #fff;
   background-color: #339ecc;
@@ -38,12 +41,16 @@
   display: flex;
   gap: 5%; }
 
+@media (min-width: 375px) {
+  .fylo_header--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .fylo_header--list-item:nth-of-type(2),
+  .fylo_header--list-item:nth-of-type(3) {
+    display: none; } }
+
 .fylo_secure-location--container {
-  padding-top: 410px;
-  background-image: url("../images/illustration-intro.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 16%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,13 +69,25 @@
     flex-direction: column;
     gap: 5rem; }
 
+@media (min-width: 375px) {
+  .fylo_secure-location--container {
+    padding-left: 25%; }
+  .fylo_works--nav .fylo_works {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (min-width: 600px) {
+  .fylo_secure-location--container {
+    padding-left: 30%;
+    padding-right: 15%; }
+  .fylo_works--nav {
+    padding-left: 10%; }
+    .fylo_works--nav .fylo_works {
+      display: grid;
+      grid-template-columns: 1fr 1fr; } }
+
 .fylo_accessing_location {
-  margin: 4rem 0;
-  padding-top: 410px;
-  background-image: url("../images/illustration-stay-productive.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: 0 16%; }
+  margin: 4rem 0; }
 
 .fylo_following-up a {
   color: #65e2d9; }
@@ -82,6 +101,17 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%; }
+
+.see_work {
+  display: none; }
+
+@media (min-width: 600px) {
+  .fylo_accessing_location {
+    margin: 7rem 0; }
+  .fylo_accessing_location {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    gap: 5%; } }
 
 .fylo_main-work {
   margin: 5rem 0; }
@@ -115,6 +145,11 @@
     .fylo_work--list-item .fylo_profile .fylo_profile--name {
       font-weight: 700; }
 
+@media (min-width: 375px) {
+  .fylo_mission--list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; } }
+
 .fylo_get-started {
   margin: 4rem 0;
   text-align: center; }
@@ -136,6 +171,17 @@
   font-size: 20px;
   border: none;
   border-radius: 50px; }
+
+@media (min-width: 375px) {
+  .fylo_get-started {
+    margin: 6rem 0; }
+  .fylo_main--content {
+    background-color: #202a3c;
+    padding: 2rem 4rem;
+    margin-left: 15%; }
+  .fylo_form {
+    display: grid;
+    grid-template-columns: 1fr 35%; } }
 
 .fylo_footer-container {
   margin: 4rem 0; }
@@ -180,3 +226,16 @@
     background-image: url("../images/instagram.svg");
     background-repeat: no-repeat;
     color: transparent; }
+
+@media (min-width: 375px) {
+  .fylo_footer--sub-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%; }
+  .fylo_footer_lorem {
+    margin-top: 3rem; }
+  .fylo_footer_nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+  .fylo_social-media {
+    display: none; } }
