@@ -5,6 +5,9 @@
 - HTML
 - SCSS
 
+## Features
+- A landing page that was built to practice using Sass
+
 ## Getting started
 
 ```bash
@@ -12,8 +15,8 @@
 $ git clone https://github.com/lightme-fan/fylo-dark-theme.git
 
 # Install dependencies
-$ npm install or yarn install
+$ yarn install
 
 # Run the app
-$ parcel index.html or yarn start
+$ yarn start
 ```

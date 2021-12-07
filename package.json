@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/lightme-fan/fylo-dark-theme#readme",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.5"
   }
 }
